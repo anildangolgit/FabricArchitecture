@@ -1,0 +1,108 @@
+<mxfile host="65bd71144e">
+    <diagram id="IMEROfeqUbPc7Jjyx-hJ" name="Page-1">
+        <mxGraphModel dx="2241" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="580" width="270" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.015;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Storage Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                    <mxGeometry x="0.2268" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Raw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="750" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3" target="30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Curated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="750" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Enriched" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="750" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Data Flow Gen 2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="16">
+                    <mxGeometry x="-0.0997" y="-2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="SQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+                    <mxGeometry x="-92" y="690" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ADF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="10">
+                    <mxGeometry x="0.0651" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Shortcut" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                    <mxGeometry x="0.3608" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Data Lake Gen 2" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
+                    <mxGeometry x="-92" y="890" width="38" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="60" y="930"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Mirroring" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+                    <mxGeometry x="0.0158" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Snowflake" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACAAAAAoCAMAAACo9wirAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABjUExURQAAACC/3zCv7yu16ii35yaz5iu16im26Ciz5yu15im26Sm06Ci15yq15im06Ci16Cq15yq16Cm26im16Sq16Sm26Cm16Si16Sm26Cm16Cm16Sq16Cm16Cm16Cm16Sm16Cm16BLF4PUAAAAgdFJOUwAIEBggKDA4QEhQWGBocHiAh4+Xn6evt7/Hz9ff5+/3v+H4wgAAAAlwSFlzAAAXEQAAFxEByibzPwAAAg5JREFUOE+NVNmWqzAMC0tL2AMJJWVp/P9feWWH9pZp55zRw0zqyMaWBeqFVBvjPDAZU+VH8IWs9XTC0l+OK0Z1P8InrO1xnUvyYzJaS+VM695tHFuuco9zcJqPFz+nqvOdnO0DWQgnC9GMzMq7diDKlaelGrxF1w6MTPVEA2ekjZRlAoU5tlgHGtVME46ONtfkuS6avtBFUg532jOF7FU9qGHy9Yb0KV1nS2WJ4xajRIrISYXHrbumumwxyyWr7Uo7GuuEEEsk1Yh20cNKtE+tDFyESCCb8hS3XqbYaGksT5H0uI8E2k3MYB2sN3zOWtGKCXENy1BqFBJASomttRC0aiIZCN7vx5H2PskPAnIchD1hqhGOBJEeMzcjzBAIf2xbxJgWAkv2HQlsAAJtstVPZGwTJmBdX4okvbQFwsz/p+bESSvHKsVH6ALqAoufjakrY26eRUdz1XPMpPlhWcbapseY4ra8u73UQu5sxDEnHfjNgMZYt361E3XYniv4BJ4MAi2yyk+k7DImUOiTI/aOVtYGAusVXHXmaMvXhw466nD3o+m0bs3g49R78ycdApVc8ncdlvhiMT51qOmhLAWR8hvynWaVBQovLc8osW9YBc6lOxvwBzTbQN6Akje/u/pN8bQapeXjG5NZ/gHA9BbOfRp8/v+ZylqW/YR79/4VA5LKeC91d+/H5nieUv8A4G9K0d+qFlUAAAAASUVORK5CYII=;container=0;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="-102" y="1000" width="48" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;" edge="1" parent="1" source="19" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="600" width="68" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Data Flow Gen2" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://debruyn.dev/2023/all-microsoft-fabric-icons-for-diagramming-old-version/Dataflow.png;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="600" width="66.45" height="68.53" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;" edge="1" parent="1" source="30" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="570" width="440" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Storage Event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="643.832746757495" y="666.2980474823037" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="590" width="68" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Data Flow Gen2" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://debruyn.dev/2023/all-microsoft-fabric-icons-for-diagramming-old-version/Dataflow.png;" vertex="1" parent="1">
+                    <mxGeometry x="560.0025704257042" y="581.47" width="95.54131869800759" height="98.52643103571165" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#3F8624;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.notebook;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="595" width="68" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+                    <mxGeometry x="-32" y="770" width="68" height="68" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
