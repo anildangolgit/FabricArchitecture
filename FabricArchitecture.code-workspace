@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "DatabaseProjectLH_Bronze",
+			"path": "../../Desktop/test/New folder/DatabaseProjectLH_Bronze"
+		},
+		{
+			"name": "DatabaseProjectWH_Silver",
+			"path": "../../Desktop/test/New folder/DatabaseProjectWH_Silver"
+		},
+		{
+			"name": "DatabaseProjectWH_Gold",
+			"path": "../../Desktop/test/New folder/DatabaseProjectWH_Gold"
+		},
+		{
+			"name": "DatabaseProjectprisma_config_sql_dev",
+			"path": "../../Desktop/test/New folder/DatabaseProjectprisma_config_sql_dev"
+		}
+	],
+	"settings": {}
+}

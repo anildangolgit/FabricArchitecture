@@ -1,0 +1,15 @@
+{
+    "id": 169,
+    "source_system": "quickbooks",
+    "source_type": "file",
+    "source_database": "lh_bronze",
+    "source_schema": "dbo",
+    "source_table": "temp_trial_balance",
+    "has_source_query": true,
+    "source_query": null,
+    "destination_database": "wh_silver",
+    "destination_schema": "quickbooks",
+    "destination_table": "trial_balance",
+    "destination_store_procedure": null,
+    "notebook_id": "afdcc684-63ba-46a0-b3e3-89b1a40d1d2c"
+}

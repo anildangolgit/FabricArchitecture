@@ -1,0 +1,21 @@
+{
+    "status": "Succeeded",
+    "result": {
+        "runId": "2b58b9aa-a9fc-4496-a5f7-71fcbcae9d60",
+        "runStatus": "Succeeded",
+        "sessionId": "ded17e89-25a6-4510-a9c1-752bbc0574c7",
+        "sparkPool": "fbb9b068-79b1-4392-bb5e-826fdc3015a5",
+        "error": null,
+        "lastCheckedOn": "2025-05-20T05:03:21.38Z",
+        "metadata": {
+            "isForPipeline": null,
+            "runStartTime": "2025-05-20T05:02:50.8121393Z",
+            "runEndTime": "2025-05-20T05:03:08.985003Z"
+        },
+        "highConcurrencyModeStatus": null,
+        "exitValue": null
+    },
+    "message": "Notebook execution is in Succeeded state, runId: 2b58b9aa-a9fc-4496-a5f7-71fcbcae9d60",
+    "SparkMonitoringURL": "https://app.powerbi.com/workloads/de-ds/sparkmonitor/bd936bb8-773b-4211-965a-2ea0ee9627d1/ded17e89-25a6-4510-a9c1-752bbc0574c7?trident=1&experience=power-bi&tab=data",
+    "executionDuration": 34
+}

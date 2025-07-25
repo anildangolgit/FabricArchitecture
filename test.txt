@@ -1,0 +1,23 @@
+config.sourcedestionmapping
+
+id
+SourceSytem
+SourceSchema
+SourceTable
+DestinationFileName
+Enabled 
+Created_TS
+Updated_TS
+
+audit.Log
+
+
+1 pace public glaccountbalance pace_public_glaccountbalance
+2 pace public glaccount pace_public_glaccountbalance
+
+create procedure config.getsourcetodestinationmapping(@source varchar(50))
+begin
+    Select * from config.sourcedestionmapping where source=@source
+
+end
+
